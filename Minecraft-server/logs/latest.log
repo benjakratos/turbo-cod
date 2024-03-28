@@ -1,0 +1,1498 @@
+[20:04:54] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[20:04:54] [ForkJoinPool-1-worker-1/WARN]: Mod getittogetherdrops uses the version fabric-1.20-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:04:55] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[20:04:55] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
+	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
+ - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[20:04:55] [main/INFO]: Loading 122 mods:
+	- alternate-current 1.7.0
+	- appleskin 2.5.1+mc1.20
+	- aquamirae 6
+	- architectury 9.1.10
+	- attributefix 21.0.4
+	- badpackets 0.4.1
+	- bclib 3.0.14
+	   \-- wunderlib 1.1.5
+	- betterend 4.0.11
+	- betterendisland 1.20-Fabric-2.0.5
+	   \-- org_reflections_reflections 0.10.2
+	- betternether 9.0.9
+	- chococraft 0.9.10
+	- cloth-config 11.1.106
+	   \-- cloth-basic-math 0.6.1
+	- ctov 3.3.0
+	- cupboard 1.20.1-2.0
+	- debugify 1.20.1+2.0
+	- dungeons_arise 2.1.56.1
+	- e4mc_minecraft 4.0.1
+	- fabric-api 0.89.3+1.20.1
+	   |-- fabric-api-base 0.4.30+7abfd51577
+	   |-- fabric-api-lookup-api-v1 1.6.35+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.11+0737cd8077
+	   |-- fabric-block-api-v1 1.0.10+92a0d36777
+	   |-- fabric-block-view-api-v2 1.0.0+92a0d36777
+	   |-- fabric-blockrenderlayer-v1 1.1.40+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.1.1+97bb207577
+	   |-- fabric-command-api-v1 1.2.33+f71b366f77
+	   |-- fabric-command-api-v2 2.2.12+b3afc78b77
+	   |-- fabric-commands-v0 0.2.50+df3654b377
+	   |-- fabric-containers-v0 0.1.63+df3654b377
+	   |-- fabric-content-registries-v0 4.0.10+57aed33f77
+	   |-- fabric-convention-tags-v1 1.5.4+a1a980da77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.3.1+0889cb7877
+	   |-- fabric-dimensions-v1 2.1.53+8536527b77
+	   |-- fabric-entity-events-v1 1.5.22+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.1+e91849a877
+	   |-- fabric-events-lifecycle-v0 0.2.62+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	   |-- fabric-item-api-v1 2.1.27+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.10+23d9108177
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.21+b3afc78b77
+	   |-- fabric-loot-api-v2 1.1.39+b3afc78b77
+	   |-- fabric-loot-tables-v1 1.1.43+9e7660c677
+	   |-- fabric-message-api-v1 5.1.7+3265161977
+	   |-- fabric-mining-level-api-v1 2.1.49+b3afc78b77
+	   |-- fabric-model-loading-api-v1 1.0.2+709a987177
+	   |-- fabric-models-v0 0.4.1+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.10+eeb8eb3677
+	   |-- fabric-networking-v0 0.3.50+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.1+6beca84877
+	   |-- fabric-particles-v1 1.1.1+201a23a077
+	   |-- fabric-recipe-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.3.2+4df89eb277
+	   |-- fabric-renderer-api-v1 3.2.0+39a511ba77
+	   |-- fabric-renderer-indigo 1.5.0+39a511ba77
+	   |-- fabric-renderer-registries-v1 3.2.45+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.48+df3654b377
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.5+ea08f9d877
+	   |-- fabric-resource-loader-v0 0.11.9+132c48c177
+	   |-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.29+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.3.1+195226a777
+	   \-- fabric-transitive-access-wideners-v1 4.3.0+6c31357e77
+	- fabric-language-kotlin 1.10.10+kotlin.1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.9.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.9.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.22.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.0
+	- fabricloader 0.15.7
+	   \-- mixinextras 0.3.5
+	- fallingtree 4.3.4
+	- farsight 1.20.1-4.1
+	   \-- org_jctools_jctools-core 4.0.1
+	- faster_entity_animations 1.6
+	- forgeconfigapiport 8.0.0
+	- geckolib 4.2.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- getittogetherdrops fabric-1.20-1.3.1
+	- java 21
+	- jei 15.3.0.4
+	- lithium 0.11.2
+	- logbegone 1.0.8
+	- magistuarmory 9.0
+	- mcdw 9.0.1
+	- minecraft 1.20.1
+	- modernfix 5.7.5+mc1.20.1
+	- mutantmonsters 8.0.7
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   \-- extensibleenums 7.0.1
+	- nochatreports 1.20.1-v2.2.2
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- obscure_api 16
+	- overweight_farming 1.20.1-2.0.3-fabric
+	   \-- midnightlib 1.4.1
+	- puzzleslib 8.1.7
+	   \-- puzzlesaccessapi 8.0.7
+	- soulsweapons 1.1.1-1.20-fabric
+	- spark 1.10.53
+	   \-- fabric-permissions-api-v0 0.1-SNAPSHOT
+	- starlight 1.1.2+fabric.dbc156f
+	- usefulbackpacks 2.0.1.121
+	- uteamcore 5.1.4.269
+	- vanillafix 1.1.8-beta
+	- voicechat 1.20.1-2.5.9
+	   \-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	- wthit 8.8.0
+	- wwoo 2.0.0
+	- xaerominimap 23.9.3
+	- yet_another_config_lib_v3 3.2.1+1.20
+	   |-- com_twelvemonkeys_common_common-image 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-io 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0-SNAPSHOT
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0-SNAPSHOT
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yosbr 0.1.2
+	- yungsapi 1.20-Fabric-4.0.2
+	   \-- org_javassist_javassist 3.29.2-GA
+[20:04:56] [main/INFO]: Applying default options... (YOSBR)
+[20:04:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[20:04:56] [main/INFO]: Compatibility level set to JAVA_16
+[20:04:56] [main/INFO]: Compatibility level set to JAVA_17
+[20:04:56] [main/INFO]: Preloading Debugify
+[20:04:56] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[20:04:57] [main/INFO]: Loaded configuration file for ModernFix 5.7.5+mc1.20.1: 50 options available, 0 override(s) found
+[20:04:57] [main/INFO]: Applying Nashorn fix
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_340 (java.lang.ClassNotFoundException: net/minecraft/class_340)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_340 was not found modernfix-fabric.mixins.json:feature.branding.GuiMixin from mod modernfix
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_1043 (java.lang.ClassNotFoundException: net/minecraft/class_1043)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_1043 was not found modernfix-fabric.mixins.json:safety.DynamicTextureMixin from mod modernfix
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_310 was not found modernfix-fabric.mixins.json:core.MCMixin_Fabric from mod modernfix
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_634 was not found modernfix-fabric.mixins.json:core.ClientPlayNetHandlerMixin from mod modernfix
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_310 was not found modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_528$class_4272 (java.lang.ClassNotFoundException: net/minecraft/class_528$class_4272)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_528$class_4272 was not found modernfix-common.mixins.json:bugfix.world_screen_skipped.WorldSelectionListMixin from mod modernfix
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_970 was not found uteamcore.mixins.json:HumanoidArmorLayerMixin from mod uteamcore
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_634 was not found uteamcore.mixins.json:ClientPacketListenerMixin from mod uteamcore
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_310 was not found uteamcore.mixins.json:MinecraftMixin from mod uteamcore
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_309 (java.lang.ClassNotFoundException: net/minecraft/class_309)
+[20:04:58] [main/WARN]: @Mixin target net.minecraft.class_309 was not found uteamcore.mixins.json:KeyboardHandlerMixin from mod uteamcore
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[20:04:58] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[20:04:58] [main/ERROR]: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.isMixin()" because "superClass" is null
+java.lang.NullPointerException: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.isMixin()" because "superClass" is null
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:582) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:328) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:914) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:803) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:568) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.15.7.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:04:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20:04:59] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[20:04:59] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md6784de$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[20:04:59] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md6784de$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[20:05:01] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:05:01] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:05:01] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20:05:01] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20:05:01] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[20:05:03] [main/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$2 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$2)
+[20:05:03] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[20:05:04] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:05:04] [main/INFO]: Vanilla bootstrap took 5541 milliseconds
+[20:05:05] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
+[20:05:05] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[20:05:05] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[20:05:05] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
+[20:05:05] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[20:05:05] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[20:05:05] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[20:05:05] [main/WARN]: [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
+[20:05:06] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[20:05:06] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[20:05:06] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[20:05:06] [main/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[20:05:06] [main/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[20:05:06] [main/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[20:05:06] [main/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[20:05:06] [main/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[20:05:06] [main/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[20:05:12] [main/INFO]: Reflections took 69 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:12] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[20:05:12] [main/INFO]: [betternether] =^..^=    BetterNether for 1.20    =^..^=
+[20:05:13] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[20:05:13] [main/INFO]: Successfully Debugify'd your game!
+[20:05:13] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[20:05:13] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[20:05:14] [main/INFO]: Constructing common components for mutantmonsters:main
+[20:05:14] [main/INFO]: Loading common config for mutantmonsters
+[20:05:14] [Thread-2/INFO]: Reloading common config for mutantmonsters
+[20:05:14] [Thread-2/INFO]: Reloading common config for mutantmonsters
+[20:05:14] [main/INFO]: KONNICHIWA ZA WARUDO!
+[20:05:14] [main/INFO]: Default JVM text encoding is: UTF-8
+[20:05:14] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[20:05:14] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[20:05:14] [main/INFO]: Constructing common components for puzzleslib:main
+[20:05:14] [main/INFO]: Config initialized!
+[20:05:14] [main/INFO]: Successfully initialized Geckolib!
+[20:05:14] [main/INFO]: Successfully registered SoulsWeapons content!
+[20:05:14] [main/INFO]: Successfully registered recipes!
+[20:05:14] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[20:05:14] [main/INFO]: Initializing done, time taken: 253ms
+[20:05:14] [main/WARN]: ================================================
+[20:05:14] [main/WARN]: You are running a beta version of VanillaIcecreamFix!
+[20:05:14] [main/WARN]: VanillaIcecreamFix Version: 1.1.8-beta
+[20:05:14] [main/WARN]: We can not guarantee that this version is compatible
+[20:05:14] [main/WARN]: with all mods. Please report issues to github if found.
+[20:05:14] [main/WARN]: ================================================
+[20:05:15] [main/INFO]: [voicechat] Compatibility version 18
+[20:05:15] [main/INFO]: [voicechat] Loading plugins
+[20:05:15] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[20:05:15] [main/INFO]: [voicechat] Initializing plugins
+[20:05:15] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[20:05:15] [main/INFO]: [WTHIT] Initializing plugin betternether:plugin at org.betterx.betternether.integrations.wthit.WailaPlugin
+[20:05:15] [main/INFO]: [betternether] Registering Waila-/Wthit-Plugin.
+[20:05:15] [main/INFO]: [WTHIT] Initializing plugin waila:core at mcp.mobius.waila.plugin.core.WailaPluginCore
+[20:05:15] [main/INFO]: [WTHIT] Initializing plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaPluginVanilla
+[20:05:15] [main/INFO]: [WTHIT] Initializing plugin waila:harvest at mcp.mobius.waila.plugin.harvest.WailaPluginHarvest
+[20:05:15] [main/INFO]: [WTHIT] Initializing plugin waila:fabric at mcp.mobius.waila.plugin.fabric.WailaPluginFabric
+[20:05:15] [Version Check/INFO]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_fabric.json
+[20:05:15] [main/INFO]: [WTHIT] Skipping disabled plugin waila:test
+[20:05:15] [main/INFO]: [WTHIT] Initializing plugin waila:extra at mcp.mobius.waila.plugin.extra.WailaPluginExtra
+[20:05:15] [main/INFO]: [WTHIT] Plugin config reloaded
+[20:05:15] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 4 values
+[20:05:15] [main/INFO]: Reflections took 16 ms to scan 1 urls, producing 1 keys and 4 values
+[20:05:15] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20:05:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:05:16] [Version Check/INFO]: [usefulbackpacks] Found status: OUTDATED Current: 2.0.1.121 Target: 2.0.1.122
+[20:05:16] [Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_fabric.json
+[20:05:16] [Version Check/INFO]: [uteamcore] Found status: UP_TO_DATE Current: 5.1.4.269 Target: null
+[20:05:16] [main/INFO]: Bypassed Mojang DFU
+[20:05:16] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:5.3.5:21020677}
+[20:05:16] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:8.2.2:33587202}
+[20:05:16] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:9.0.1:37748737}
+[20:05:16] [main/INFO]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[20:05:16] [main/INFO]: [bclib] Running Pre Patchers on ./world/.
+[20:05:16] [main/WARN]: [bclib] Applying Fixes on Level
+[20:05:16] [main/INFO]: [bclib] Patcher Stage... Reading Data%
+[20:05:16] [main/INFO]: [bclib] Patcher Stage... Fixing Players%
+[20:05:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/cefea5cc-355e-399f-9a24-6ef223e6c3a2.dat
+[20:05:16] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/c3318358-d418-384d-be4c-f4fcfb81961a.dat
+[20:05:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/4cd19444-2619-3173-b0d5-4178dae5b523.dat
+[20:05:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/03664bf1-0bea-3640-8adf-6cb9db1066fb.dat
+[20:05:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/28b72a97-10ae-3b34-bde0-c5a398a03fb8.dat
+[20:05:16] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/12633b62-5846-35a9-82d0-c0521ebb51af.dat
+[20:05:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/340baa6d-dd57-3c97-a294-bfcbc2985876.dat
+[20:05:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./playerdata/4091dee7-e729-41f7-afb8-a39d7368ce32.dat
+[20:05:16] [main/INFO]: [bclib] Patcher Stage... Applying Patches to level.dat%
+[20:05:16] [main/INFO]: [DataFixerAPI] Inspecting level.dat in ./world/.
+[20:05:16] [main/INFO]: [bclib] Patcher Stage... Patching Custom World-Data%
+[20:05:16] [main/INFO]: [bclib] Patcher Stage... Repairing all Regions%
+[20:05:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.22.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.-1.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-4.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.22.mca
+[20:05:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.15.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-7.-1.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.-15.mca
+[20:05:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.-11.mca
+[20:05:16] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-4.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-26.3.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.-4.mca
+[20:05:16] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.0.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 4%
+[20:05:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.1.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.11.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.0.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-23.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.7.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-38.-11.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.-7.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.8.-23.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.11.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.1.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-1.mca
+[20:05:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.18.mca
+[20:05:17] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-2.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-11.1.mca
+[20:05:17] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-2.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 8%
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.1.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-3.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-4.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.1.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-1.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.3.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.11.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.11.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.7.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-1.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-9.-1.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-4.-2.mca
+[20:05:18] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-2.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-8.-1.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-4.-1.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 11%
+[20:05:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-27.11.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.1.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.4.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.-4.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.22.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.0.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.0.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.22.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.8.15.mca
+[20:05:19] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-3.mca
+[20:05:20] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 13%
+[20:05:20] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-2.mca
+[20:05:21] [main/INFO]: [bclib] Patching... 14%
+[20:05:21] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.2.mca
+[20:05:22] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.22.mca
+[20:05:22] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-3.mca
+[20:05:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.0.mca
+[20:05:22] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.1.mca
+[20:05:23] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 15%
+[20:05:23] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-4.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 15%
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.22.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-27.-11.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.-19.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.18.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.-23.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.-15.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.15.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-4.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-12.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.11.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.3.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.8.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.-4.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-3.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-15.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.-15.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-1.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.15.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.-4.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.-12.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-38.-19.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.3.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-26.7.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-19.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-11.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-22.4.mca
+[20:05:24] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.0.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.-12.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.7.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-2.mca
+[20:05:24] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.1.mca
+[20:05:25] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 22%
+[20:05:25] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-1.mca
+[20:05:26] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 23%
+[20:05:26] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.0.mca
+[20:05:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-4.mca
+[20:05:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.19.mca
+[20:05:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.-15.mca
+[20:05:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-27.22.mca
+[20:05:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.22.mca
+[20:05:27] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-5.-4.mca
+[20:05:27] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-9.-1.mca
+[20:05:27] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 24%
+[20:05:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.4.mca
+[20:05:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-11.mca
+[20:05:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-19.mca
+[20:05:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.15.mca
+[20:05:27] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-3.mca
+[20:05:28] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.0.mca
+[20:05:29] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 26%
+[20:05:29] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.11.mca
+[20:05:29] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-3.mca
+[20:05:30] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 26%
+[20:05:30] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.-19.mca
+[20:05:30] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.-8.mca
+[20:05:30] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.15.mca
+[20:05:30] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-2.mca
+[20:05:32] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 27%
+[20:05:32] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.1.mca
+[20:05:32] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-7.1.mca
+[20:05:32] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-8.0.mca
+[20:05:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.-4.mca
+[20:05:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.1.mca
+[20:05:32] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-10.0.mca
+[20:05:32] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-4.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 29%
+[20:05:33] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-3.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-7.-2.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-7.-4.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-6.-3.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-4.0.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.11.mca
+[20:05:33] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-4.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 31%
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-2.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-2.-3.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.-2.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.0.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-5.-4.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-11.0.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-4.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-13.0.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-13.2.mca
+[20:05:34] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-2.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-3.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 33%
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-12.1.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-13.0.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-6.1.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-9.0.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-5.-3.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-3.mca
+[20:05:35] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-38.-23.mca
+[20:05:35] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.-4.mca
+[20:05:35] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-26.-4.mca
+[20:05:35] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.15.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.22.mca
+[20:05:35] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.2.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-15.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.0.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.3.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-15.mca
+[20:05:35] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.0.mca
+[20:05:36] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.-19.mca
+[20:05:36] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.8.-8.mca
+[20:05:36] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.19.mca
+[20:05:36] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
+[20:05:36] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 39%
+[20:05:36] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.3.mca
+[20:05:36] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-6.1.mca
+[20:05:37] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
+[20:05:37] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-1.mca
+[20:05:37] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-5.-2.mca
+[20:05:38] [main/INFO]: [bclib] Patching... 40%
+[20:05:38] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-13.2.mca
+[20:05:39] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.19.mca
+[20:05:39] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-5.0.mca
+[20:05:40] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 40%
+[20:05:40] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-9.0.mca
+[20:05:40] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-19.mca
+[20:05:40] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-26.0.mca
+[20:05:40] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-1.mca
+[20:05:40] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.7.mca
+[20:05:40] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.22.mca
+[20:05:40] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.-8.mca
+[20:05:40] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.19.mca
+[20:05:40] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.19.mca
+[20:05:40] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-2.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 43%
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.15.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.15.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-4.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-15.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-3.1.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.0.-1.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-11.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/poi/r.-1.-1.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.4.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.-12.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.0.-1.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-5.-1.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-1.0.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.0.0.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-1.-1.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/entities/r.-3.-2.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-3.-3.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.-1.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.7.mca
+[20:05:42] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-5.-3.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.3.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.22.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-22.19.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-19.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.-4.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.-23.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.22.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.8.mca
+[20:05:42] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-27.15.mca
+[20:05:43] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.19.mca
+[20:05:43] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-7.-4.mca
+[20:05:43] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 50%
+[20:05:43] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-2.0.mca
+[20:05:43] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.0.mca
+[20:05:44] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.-19.mca
+[20:05:44] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.1.mca
+[20:05:44] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-5.1.mca
+[20:05:44] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.7.mca
+[20:05:44] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.7.mca
+[20:05:44] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.15.mca
+[20:05:44] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
+[20:05:44] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 52%
+[20:05:44] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-2.-2.mca
+[20:05:44] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.0.mca
+[20:05:45] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.-2.mca
+[20:05:45] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-1.-1.mca
+[20:05:45] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.4.mca
+[20:05:45] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.1.mca
+[20:05:45] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 53%
+[20:05:45] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-14.0.mca
+[20:05:45] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-3.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.-23.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-27.18.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-6.-2.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-4.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.0.-2.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-2.-1.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./DIM-1/region/r.-3.-2.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.-7.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.-15.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.11.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-23.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-7.-8.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.1.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 57%
+[20:05:46] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-7.-1.mca
+[20:05:46] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-9.1.mca
+[20:05:47] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-6.-3.mca
+[20:05:48] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 58%
+[20:05:48] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.-12.mca
+[20:05:48] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-7.-3.mca
+[20:05:48] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.-15.mca
+[20:05:48] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-6.-4.mca
+[20:05:48] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-1.mca
+[20:05:49] [main/INFO]: [bclib] Patching... 59%
+[20:05:49] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-19.mca
+[20:05:49] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-15.-8.mca
+[20:05:49] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.11.7.mca
+[20:05:49] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-8.mca
+[20:05:49] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.0.mca
+[20:05:49] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-27.-7.mca
+[20:05:49] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.0.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.-11.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-7.0.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-2.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-3.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-12.1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-6.1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-9.0.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-5.-3.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-3.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-4.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-7.-1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.0.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-11.1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-2.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-3.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-4.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-9.-1.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.-2.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-4.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-2.mca
+[20:05:49] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-8.-1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.-1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-8.-4.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-8.1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-2.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.-3.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-3.0.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 69%
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-4.-3.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-6.-1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-10.1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-6.0.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-13.1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-14.2.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-10.-1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-14.1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-12.0.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-5.-2.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-5.0.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-5.-1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.1.mca
+[20:05:50] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-6.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-7.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-7.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-9.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-6.-4.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./entities/r.-6.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [bclib] Patching... 73%
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-11.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-4.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-8.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-10.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-7.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-8.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-8.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-7.-4.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-5.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-6.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.-4.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-12.2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-5.-4.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-11.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-23.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-4.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-38.-27.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.11.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.22.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-26.-15.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.-19.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-13.2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-6.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-8.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-3.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-4.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-6.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-10.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-13.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-14.2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-10.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-14.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-12.0.mca
+[20:05:51] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.3.mca
+[20:05:51] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.11.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-5.-2.mca
+[20:05:51] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.7.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-5.0.mca
+[20:05:51] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.2.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-5.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-14.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-6.-2.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-7.-3.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-7.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-9.1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-6.-4.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-1.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-6.0.mca
+[20:05:51] [ForkJoinPool.commonPool-worker-2/INFO]: [DataFixerAPI] Inspecting ./world/./poi/r.-7.1.mca
+[20:05:51] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.11.mca
+[20:05:51] [main/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.-19.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.-8.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.7.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.-15.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 90%
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-7.1.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.-1.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.-19.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-4.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.0.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.-8.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-27.-19.mca
+[20:05:52] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.0.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 92%
+[20:05:53] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.15.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.-8.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.0.-8.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-10.1.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.0.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.7.-11.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-19.-23.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-2.0.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-38.-15.mca
+[20:05:53] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-10.0.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-13.1.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-1/INFO]: [bclib] Patching... 94%
+[20:05:54] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.19.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-26.-23.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.15.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.1.-3.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-23.0.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-4.-23.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-11.-23.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.-12.mca
+[20:05:54] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-14.2.mca
+[20:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 96%
+[20:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.4.19.mca
+[20:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-34.19.mca
+[20:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.3.-15.mca
+[20:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-22.-23.mca
+[20:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-10.-1.mca
+[20:05:56] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-7.-2.mca
+[20:05:56] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-12.11.mca
+[20:05:56] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-14.1.mca
+[20:05:57] [ForkJoinPool.commonPool-worker-3/INFO]: [bclib] Patching... 98%
+[20:05:57] [ForkJoinPool.commonPool-worker-3/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-30.-23.mca
+[20:05:57] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-3.mca
+[20:05:57] [ForkJoinPool.commonPool-worker-1/INFO]: [DataFixerAPI] Inspecting ./world/./region/r.-8.-2.mca
+[20:05:57] [main/INFO]: [bclib] Patcher Stage... Saving Patch State%
+[20:05:57] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'betternether' from 0.0.0 to 9.0.1
+[20:05:57] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:empty_end_cave
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:jade_cave
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:megalake_grove
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:neon_oasis
+[20:05:57] [main/INFO]: [bclib] Did not manage biome betterend:painted_mountains
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (575ad89b)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[20:05:58] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[20:05:58] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (14c6c35b)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4b12e5c9)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[20:05:58] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[20:05:58] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (69caa745)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (73a7208b)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[20:05:58] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[20:05:58] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (1cd4b584)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (bcdd244)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[20:05:58] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[20:05:58] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (787e1c90)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:05:58] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:05:58] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:05:58] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:05:58] [main/WARN]: [bclib] No valid BCLBiome Registry available!
+[20:05:58] [main/WARN]: [bclib] No valid Biome Registry available!
+[20:05:58] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (540e6433)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (6d1049f)
+[20:05:58] [main/INFO]: [bclib] Unable to build Biome List yet
+[20:05:58] [main/INFO]: [bclib] No Void Biomes found. Disabling by using barrens
+[20:05:58] [main/INFO]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[20:05:58] [main/WARN]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[20:05:58] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:05:58] [main/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:05:59] [main/INFO]: [bclib] Disabling Recipe: bclib:test_star
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_shortsword_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_bastardsword_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_stylet_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_heavymace_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_ahlspiess_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_zweihander_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_heavywarhammer_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_rondache_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_kiteshield_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_target_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_flamebladedsword_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_guisarme_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_ellipticalshield_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_estoc_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_ranseur_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_buckler_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_lucernhammer_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_heatershield_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_concavehalberd_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_chainmorgenstern_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_morgenstern_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_pavese_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe betterend:guide_book
+com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:293) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_katzbalger_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_claymore_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_lochaberaxe_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_tartsche_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_pike_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_chivalrylance_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/ERROR]: Parsing error loading recipe magistuarmory:netherite_roundshield_smithing
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.7.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.0]
+[20:05:59] [main/INFO]: Loaded 10 recipes
+[20:05:59] [main/ERROR]: Parsing error loading custom advancement overweight_farming:husbandry/peel_overweight_onion: Failed to parse 'location' field
+[20:05:59] [main/ERROR]: Parsing error loading custom advancement overweight_farming:husbandry/unpeel_vegetables: Failed to parse 'location' field
+[20:05:59] [main/INFO]: Loaded 3170 advancements
+[20:06:00] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///workspaces/codespaces-jupyter/Minecraft-server/mods/getittogetherdrops-fabric-1.20-1.3.1.jar
+[20:06:00] [main/INFO]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (6d1049f)
+[20:06:00] [main/INFO]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (540e6433)
+[20:06:00] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
+[20:06:00] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[20:06:00] [main/INFO]: Applied 342 biome modifications to 111 of 111 new biomes in 38.07 ms
+[20:06:00] [Server thread/INFO]: Loading server config for mutantmonsters
+[20:06:00] [Thread-2/INFO]: Reloading server config for mutantmonsters
+[20:06:00] [Thread-2/INFO]: Reloading server config for mutantmonsters
+[20:06:00] [Server thread/INFO]: Starting background profiler...
+[20:06:01] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[20:06:01] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:06:01] [Server thread/INFO]: Loading properties
+[20:06:01] [Server thread/INFO]: Default game type: SURVIVAL
+[20:06:01] [Server thread/INFO]: Generating keypair
+[20:06:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:06:01] [Thread-4/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[20:06:01] [Server thread/INFO]: Using epoll channel type
+[20:06:01] [Server thread/INFO]: Using epoll channel type
+[20:06:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:06:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:06:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:06:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:06:01] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[20:06:01] [Server thread/INFO]: Preparing level "world"
+[20:06:01] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (6d1049f)
+        biomes     = 24
+        namespaces = betterend(19), minecraft(5)
+        seed       = 223820141816812101
+        height     = 128
+        deciders   = 0
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[20:06:01] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (ec33ee8)
+        biomes     = 53
+        namespaces = minecraft(53)
+[20:06:01] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (540e6433)
+        biomes     = 27
+        namespaces = betternether(22), minecraft(5)
+        seed       = 223820141816812101
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[20:06:01] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (5b51f96) 
+     BCLib - The End  BiomeSource (6d1049f)
+         biomes     = 24
+         namespaces = betterend(19), minecraft(5)
+         seed       = 223820141816812101
+         height     = 128
+         deciders   = 0
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.class_3754@167e7f0a 
+     class_4766 (ec33ee8)
+         biomes     = 53
+         namespaces = minecraft(53)
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (222b120e) 
+     BCLib - Nether BiomeSource (540e6433)
+         biomes     = 27
+         namespaces = betternether(22), minecraft(5)
+         seed       = 223820141816812101
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[20:06:01] [Server thread/INFO]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (6d1049f)
+    biomes     = 24
+    namespaces = betterend(19), minecraft(5)
+    seed       = 223820141816812101
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[20:06:01] [Server thread/INFO]: [bclib] Merged 22 additional Surface Rules for 
+BCLib - Nether BiomeSource (540e6433)
+    biomes     = 27
+    namespaces = betternether(22), minecraft(5)
+    seed       = 223820141816812101
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86} => 74
+[20:06:01] [Thread-4/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[20:06:01] [Thread-4/INFO]: using relay us
+[20:06:02] [Server thread/INFO]: Done (0.867s)! For help, type "help"
+[20:06:02] [Server thread/WARN]: Dedicated server took 70.047 seconds to load
+[20:06:02] [Server thread/INFO]: Loaded config for: cupboard.json
+[20:06:02] [Server thread/INFO]: Loaded config for: farsight.json
+[20:06:02] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[20:06:02] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[20:06:02] [Server thread/INFO]: Loaded values for 25 compatible attributes.
+[20:06:02] [Server thread/INFO]: Loaded 25 values from config.
+[20:06:02] [Server thread/INFO]: Saving config file. 25 entries.
+[20:06:02] [Server thread/INFO]: Applying changes for 25 attributes.
+[20:06:02] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[20:06:02] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20:06:02] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[20:06:02] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x167e09b0, QuicStreamAddress{streamId=0}]
+[20:06:02] [nioEventLoopGroup-2-1/INFO]: control channel write complete
+[20:06:02] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[20:06:02] [nioEventLoopGroup-2-1/INFO]: Domain assigned: rubber-luxury.us.e4mc.link
